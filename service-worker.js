@@ -1,4 +1,4 @@
-const CACHE_NAME = "mathe-spiel-v1";
+const CACHE_NAME = "mathe-spiel-v2";
 
 const FILES = [
     "./",
