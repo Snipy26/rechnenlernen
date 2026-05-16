@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathe-Spiel</title>
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4caf50">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game">
+
+        <h1>🧠 Mathe-Spiel</h1>
+
+        <div class="infos">
+            <p>Punkte: <span id="punkte">0</span></p>
+            <p>Leben: <span id="leben">3</span></p>
+        </div>
+
+        <div class="aufgabe-box">
+            <h2 id="aufgabe">5 + 5</h2>
+        </div>
+
+        <input
+            type="number"
+            id="antwort"
+            placeholder="Antwort eingeben"
+        >
+
+        <button id="prüfenBtn">
+            Prüfen
+        </button>
+
+        <p id="feedback"></p>
+
+        <button id="neuStartBtn" class="hidden">
+            Neues Spiel
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
